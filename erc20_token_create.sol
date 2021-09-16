@@ -7,7 +7,7 @@ pragma solidity ^0.4.24;
 // Name          : SUNGSU Token
 // Total supply  : 10000000000
 // Decimals      : 2
-// Owner Account : 0x3C4572d8516F87D0d22486fa4677c159A4e30f6a
+// Owner Account : 0x5923a3026F5BA4A6F3AaBC01e393fB4ca36456E4
 //
 // Enjoy.
 //
@@ -84,12 +84,12 @@ contract INVENToken is ERC20Interface, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "INVEN";
-        name = "INVEN Token";
+        symbol = "SUNGSU";
+        name = "SUNGSU Token";
         decimals = 2;
-        _totalSupply = 100000;
-        balances[0xAd61C057eD2cE6BB81f10eeC0192e3a7DEC848dc] = _totalSupply;
-        emit Transfer(address(0), 0xAd61C057eD2cE6BB81f10eeC0192e3a7DEC848dc, _totalSupply);
+        _totalSupply = 10000000000;
+        balances[0x5923a3026F5BA4A6F3AaBC01e393fB4ca36456E4] = _totalSupply;
+        emit Transfer(address(0), 0x5923a3026F5BA4A6F3AaBC01e393fB4ca36456E4, _totalSupply);
     }
 
 
